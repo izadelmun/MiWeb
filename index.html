@@ -3,172 +3,26 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera web</title>
-
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f6ff;
-            color: #22243a;
-        }
-
-        header {
-            background: #252653;
-            color: white;
-            padding: 24px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 12px;
-        }
-
-        header h2 {
-            margin: 0;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 18px;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 90px 20px;
-            background: linear-gradient(135deg, #e1e6ff, #f9e6ff);
-        }
-
-        .hero h1 {
-            font-size: 46px;
-            margin-bottom: 16px;
-        }
-
-        .hero p {
-            font-size: 18px;
-            max-width: 600px;
-            margin: 0 auto 28px;
-            line-height: 1.6;
-        }
-
-        .boton {
-            display: inline-block;
-            background: #6554d9;
-            color: white;
-            padding: 14px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 45px 8%;
-            text-align: center;
-        }
-
-        .tarjetas {
-            display: flex;
-            justify-content: center;
-            gap: 22px;
-            flex-wrap: wrap;
-            margin-top: 28px;
-        }
-
-        .tarjeta {
-            background: white;
-            padding: 25px;
-            border-radius: 14px;
-            max-width: 280px;
-            box-shadow: 0 4px 16px #25265312;
-        }
-
-        .tarjeta h3 {
-            color: #6554d9;
-        }
-
-        footer {
-            background: #252653;
-            color: white;
-            text-align: center;
-            padding: 22px;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        @media (max-width: 500px) {
-            .hero h1 {
-                font-size: 34px;
-            }
-
-            nav a {
-                margin-left: 0;
-                margin-right: 12px;
-            }
-        }
-    </style>
 </head>
-
 <body>
-    <header>
-        <h2>Mi primera web</h2>
-        <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#sobre-mi">Sobre la web</a>
-            <a href="#aprendizaje">Aprendizaje</a>
-        </nav>
-    </header>
+    <h1>Mi primera página web</h1>
 
-    <main>
-        <section class="hero" id="inicio">
-            <h1>¡Bienvenido a mi web!</h1>
-            <p>
-                Este es mi primer proyecto web.
-                Estoy aprendiendo a crear páginas con HTML y CSS,
-                y a publicarlas en Internet utilizando GitHub.
-            </p>
-            <a class="boton" href="#sobre-mi">Descubrir más</a>
-        </section>
+    <p>¡Bienvenido a mi página web!</p>
 
-        <section id="sobre-mi">
-            <h2>Sobre este proyecto</h2>
-            <p>
-                Esta página forma parte de mi aprendizaje en el desarrollo web.
-                Su objetivo es practicar la creación y publicación de sitios web.
-            </p>
-        </section>
+    <p>Estoy aprendiendo HTML y GitHub.</p>
 
-        <section id="aprendizaje">
-            <h2>¿Qué estoy aprendiendo?</h2>
+    <h2>Lo que estoy aprendiendo</h2>
 
-            <div class="tarjetas">
-                <article class="tarjeta">
-                    <h3>HTML</h3>
-                    <p>Crear la estructura y el contenido de una página web.</p>
-                </article>
+    <ul>
+        <li>Crear páginas web con HTML.</li>
+        <li>Guardar proyectos en GitHub.</li>
+        <li>Publicar páginas en Internet.</li>
+    </ul>
 
-                <article class="tarjeta">
-                    <h3>CSS</h3>
-                    <p>Diseñar la página con colores, espacios y estilos.</p>
-                </article>
-
-                <article class="tarjeta">
-                    <h3>GitHub</h3>
-                    <p>Guardar el código y compartirlo en Internet.</p>
-                </article>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>Mi primera web · 2026</p>
-    </footer>
+    <p>
+        Puedes visitar
+        <a href="https://github.com/">GitHub</a>.
+    </p>
 </body>
 </html>
